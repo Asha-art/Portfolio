@@ -1,0 +1,144 @@
+
+/*background image animated*/
+.large-header {
+   position: relative;
+   width: 100%;
+   background: #111;
+   overflow: hidden;
+   background-size: cover;
+   background-position: center center;
+   z-index: 1;
+}
+
+.demo .large-header {
+   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
+}
+
+.main-title {
+   position: absolute;
+   margin: 0;
+   padding: 0;
+   color: #F9F1E9;
+   text-align: center;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate3d(-50%, -50%, 0);
+   transform: translate3d(-50%, -50%, 0);
+}
+
+.demo .main-title {
+   text-transform: uppercase;
+   font-size: 4.2em;
+   letter-spacing: 0.1em;
+}
+
+.main-title .thin {
+   font-weight: 50;
+}
+
+@media only screen and (max-width: 768px) {
+   .demo .main-title {
+      font-size: 3em;
+   }
+}
+
+/*background image animated*/
+
+p.navbar-brand{
+
+    font-size: 30px;
+    color: gray;
+    font-family: 'Tangerine', cursive;
+    margin-top: 15px;
+ }
+.nav-link{
+    color: gold;
+ }
+
+
+#nameFont{
+	font-size:50px;
+	font-family: 'Euphoria Script', cursive;
+	color: Purple;	
+	text-shadow: 4px 4px 4px #aaa;
+  text-decoration: none;
+}
+
+.card-title{
+	font-size: 45px;
+	font-family: 'Tangerine', cursive;
+}
+
+
+.container{
+
+	margin-top: 20px;
+}
+
+div.card.col-md-6{
+	border: 0;
+
+}
+
+
+div.card.col-md-3{
+	border: none;
+  background-color: rgba(0,0,0,0.2);
+
+    /*background-color: #ffc1074d;
+	background-color: #bf15150d;*/
+	border: 0;
+}
+
+
+
+button.btn.btn-outline-warning{
+	align-items: center;
+	color: black;
+    border-color: grey;
+    line-height: 1.0;
+    border-radius: 25%;
+}
+
+.btn-outline-warning:hover {
+    color: #324961;
+    background-color:#324961;
+    border-color: #324961;
+}
+
+.card-text
+{
+
+font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+
+
+.footer{
+    height: 35px;
+}
+/*.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: red;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.0;
+    border-radius: 50%;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-outline-warning {
+    color: red;
+    border-color: red;
+}*/
